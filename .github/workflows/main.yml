@@ -41,11 +41,6 @@ jobs:
                 issue_number: prNumber,
                 body: `⚠️ **Submission Deadline Exceeded**
                 
-**Submission Details:**
-- PR Title: ${prTitle}
-- Author: @${prAuthor}
-- Submitted: ${{ github.event.pull_request.created_at }}
-- Due Date: October 2, 2025 23:59:59 UTC
 
 If you believe this was closed in error or have any questions, please contact the instructor.`
               });
